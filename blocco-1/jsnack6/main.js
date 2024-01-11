@@ -8,11 +8,9 @@ function cubeOf(numberRequest){
     console.log(cube)
 }
 
+cubeOf(numberRequest)
 
 // Ho creato 2 funzioni che adempiano alla richiesta dell'esercizio secondo i due modi in cui ho interpretato la consegna.
-
-
-cubeOf(numberRequest)
 
 // prompts the user to input a number
 let numberRequestSecondary = Number(prompt("Submit a number:"))
