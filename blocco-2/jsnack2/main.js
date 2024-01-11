@@ -6,8 +6,13 @@ const surnamesArray = ["Rossi", "Bianchi", "Verdi", "Ferrari", "Gallo", "Costa",
 
 //creating a function that picks a random name and surname from the arrays
 const randomName = namesArray[Math.floor(Math.random() * namesArray.length)]
-const randomSurnames = surnamesArray[Math.floor(Math.random() * surnamesArray.length)]
+const randomSurname = surnamesArray[Math.floor(Math.random() * surnamesArray.length)]
 
 //prints the randomized names and surnames
 console.log(randomName)
-console.log(randomSurnames)
+console.log(randomSurname)
+
+document.getElementById("name").innerHTML = randomName
+document.getElementById("surname").innerHTML = randomSurname
+
+document.getElementById("resultNameSurname").innerHTML = randomName + " " + randomSurname
