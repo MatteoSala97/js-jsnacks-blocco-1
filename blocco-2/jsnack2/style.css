@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    color: black;
+}
+
+header,
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: 20px auto;
+    height: 600px;
+    background-color: cyan;
+}
+
+.box{
+    height: 100px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+h2{
+    text-align: center;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+#btn{
+    height: 50px;
+    width: 100px;
+}
