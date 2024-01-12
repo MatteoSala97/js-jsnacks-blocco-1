@@ -8,7 +8,7 @@ const surnameHtml = document.getElementById("surname")
 const btnHtml = document.getElementById("btn")
 const resultHtml = document.getElementById("resultNameSurname")
 
-//creating a function that picks a random name and surname from the arrays
+//creating an event that picks a random name and surname from the arrays
 btnHtml.addEventListener("click", function(){
     const randomName = namesArray[Math.floor(Math.random() * namesArray.length)]
     const randomSurname = surnamesArray[Math.floor(Math.random() * surnamesArray.length)]
